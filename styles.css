@@ -90,7 +90,7 @@ height: 100px;
 }
 .second{
   height: 100vh;
-  padding: 120px 0px;
+  padding: 100px 0px;
   
 
 }
@@ -107,7 +107,7 @@ height: 100px;
   margin: 50px 0px opx;
   text-align: center;
 }
-.imgs img{
+.img1 img{
  
   height: 330px;
   margin-bottom: 25px;
@@ -127,11 +127,12 @@ em{
       align-items: center;
       height: 100vh;
       background-color: #fff;
+      padding: 100px 0px;
     }
 
     .left {
       width: 49%;
-      height: 800px;
+      height: 100vh;
       background-image: url("https://www.jocooks.com/wp-content/uploads/2018/11/sex-in-a-pan-1-28.jpg");
       background-size: cover;
       background-position: center;
@@ -144,7 +145,7 @@ em{
 
     .right {
      width: 50%;
-      height: 800px;
+      height: 100vh;
       background-color: #fdfdfd;
       background-size: cover;
       background-position: center;
@@ -170,15 +171,17 @@ span{
       display: flex;
       
       align-items: center;
-      /* height: 100vh; */
+      height: 100vh;
       background-color: #fff;
-     padding-top: 100px;
+     padding:100px 0px;
      text-align: right;
+     height: 100vh;
+     
     }
 
     .right1 {
       width: 51%;
-      height: 800px;
+      height: 100vh;
       background-image: url("https://i.pinimg.com/originals/cf/e6/bc/cfe6bc9a8b46c31874f350dbb5d1bde7.jpg");
       background-size: cover;
       background-position: center;
@@ -190,13 +193,15 @@ span{
     }
 
     .left1 {
-     width: 50%;
-      height: 800px;
+     width: 49%;
+      height: 100vh;
       background-color: #fdfdfd;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      padding: 200px 45px 200px 140px;
+      text-align: right;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+
      
       
      
@@ -213,7 +218,7 @@ span{
 }
 .five{
   height: 100vh;
-  padding: 100px 0px;
+  padding:50px 0px;
 }
 .imgs1{
   display: grid;
@@ -224,7 +229,12 @@ span{
   text-align: center;
   line-height: 20px;
   letter-spacing: 2px;
-  margin-top: 30px;
+  margin-top: 20px;
+
+  
+}
+.box{
+  height: 100%;
 }
 .imgg1{
   justify-self:  center;
@@ -249,6 +259,9 @@ span{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .seven{
   height: 100vh;
@@ -262,7 +275,7 @@ span{
   width: 1200px;
   background-color: #fdfdfd;
   position:absolute;
-  left:220px;
+  
   top:100px;
   text-align: center;
   padding: 100px 100px;
@@ -299,7 +312,7 @@ button{
   color: orange;
 }
 .eight{
-  height: 650px;
+  height: 550px;
  
  
 
@@ -307,10 +320,10 @@ button{
   justify-content: center;
   
   
+  
 }
 .eight div{
-  height: 450px;
-  width: 1230px;
+ width: 700px;
  
   text-align: center;
   padding: 60px 0px;
@@ -343,59 +356,91 @@ button{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
 } 
-.nine div{
-  position: absolute;
-  background-color: #fdfdfd;
+.nine .Books{
+
+  background-color: #8ab3c1;
   width: 85vw;
-  height: 85vh;
+  
   top:80px;
-  left:130px;
+ 
   border-radius: 20px;
   text-align: center;
   padding: 50px;
 letter-spacing: 2px;
 
 }
+input{
+  border-top: black;
+  border-left: black;
+  border-right: black;
+  
+  width: 400px;
+  background-color:#8ab3c1;
+  height: 25px;
+}
+.submit{
+  margin-top: 30px;
+  height: 40px;
+  background-color:#8ab3c1;
+  border-color: #167b81;
+  color: #167b81;
+}
+
 .left2{
   text-align: center;
   width: 50%;
   height: 100vh;
  
   padding: 80px;
-  font-size: 20px;
+  
   line-height: 40px;
+  background-color: aquamarine;
 }
 .ten{
   height: 100vh;
   display: flex;
-  justify-content: center;
+  
 }
 .right2{
   width: 50%;
   height: 100vh;
-  background-color: rgb(161, 188, 188);
+ 
+
 }
-.left2 pre{
-  margin-bottom: 20px;
+iframe{
+  height: 100vh;
+    width: 100%;
 }
+
+  
+
+
 .foot{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: rgb(11, 27, 27);
   color: white;
   height: 100px;
   
   align-items: center;
+  padding: 0px 100px;
+  ;
 }
-.social{
+.icon{
   display: flex;
-  gap:20px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 25px;
   
 }
-iframe{
-   width: 100%;
-  height: 100vh;
-
+.icon a{
+  color: wheat;
 }
 
