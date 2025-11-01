@@ -366,7 +366,7 @@ button{
 
   background-color: #8ab3c1;
   width: 85vw;
-  
+  position: absolute;
   top:80px;
  
   border-radius: 20px;
@@ -443,4 +443,16 @@ iframe{
 .icon a{
   color: wheat;
 }
+html, body {
+  overflow-x: hidden;
+}
+
+.price {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+
 
