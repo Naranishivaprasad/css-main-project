@@ -34,6 +34,7 @@ height: 100px;
   left: 0;
   width: 100%;
   z-index: 100;
+  background-color: rgba(0, 0, 0, 0.542);
 }
 
 
@@ -452,6 +453,247 @@ html, body {
   max-width: 1200px;
   margin: auto;
 }
+
+@media (max-width: 600px) {
+
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 15px 20px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 15px;
+  }
+
+  .menu a {
+    font-size: 14px;
+  }
+
+  /* --- Hero Section --- */
+  .first h1 {
+    font-size: 28px;
+  }
+
+  .first h5 {
+    font-size: 16px;
+  }
+
+  /* --- Offer Section --- */
+  .imgs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imgs .img1, .imgs .img2, .imgs .img3 {
+    width: 90%;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  /* --- Welcome / Chef Sections --- */
+  .third, .fourth {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left, .right, .left1, .right1 {
+    width: 100%;
+    height: 60vh;
+  }
+
+  .right, .left1 {
+    padding: 40px 30px;
+    text-align: center;
+  }
+
+  .right div, .left1 div {
+    width: 90%;
+    margin: auto;
+  }
+
+  /* --- Team Section --- */
+  .imgs1 {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+    gap: 30px;
+  }
+
+  .imgg1, .imgg2, .imgg3, .imgg4 {
+    padding: 0;
+  }
+
+  /* --- Menu Section --- */
+  .price {
+    width: 95%;
+    padding: 40px 20px;
+    height: auto;
+  }
+
+  .order {
+    grid-template-columns: 1fr;
+  }
+
+  button {
+    width: 180px;
+    margin-top: 40px;
+  }
+
+  /* --- Customer Section --- */
+  .eight div {
+    width: 90%;
+    padding: 30px 0;
+  }
+
+  .details {
+    gap: 20px;
+  }
+
+  /* --- Booking Section --- */
+  .nine .Books {
+    width: 90%;
+    padding: 30px 20px;
+  }
+
+  input {
+    width: 90%;
+  }
+
+  /* --- Contact Section --- */
+  .ten {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left2, .right2 {
+    width: 100%;
+    height: 50vh;
+  }
+
+  iframe {
+    height: 50vh;
+  }
+
+  /* --- Footer --- */
+  .foot {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .icon {
+    font-size: 22px;
+    gap: 15px;
+  }
+}
+
+
+/* ============================
+   💻 TABLET DEVICES (601px – 992px)
+============================ */
+@media (min-width: 601px) and (max-width: 992px) {
+
+  /* --- Navbar --- */
+  .nav {
+    padding: 20px 40px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 25px;
+  }
+
+  .menu a {
+    font-size: 15px;
+  }
+
+  /* --- Offer Section --- */
+  .imgs {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .imgs .img1, .imgs .img2, .imgs .img3 {
+    width: 45%;
+    height: auto;
+  }
+
+  /* --- Welcome / Chef Sections --- */
+  .third, .fourth {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left, .right, .left1, .right1 {
+    width: 100%;
+    height: 60vh;
+  }
+
+  .right, .left1 {
+    padding: 80px 60px;
+  }
+
+  /* --- Team Section --- */
+  .imgs1 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 0 50px;
+  }
+
+  /* --- Menu Section --- */
+  .price {
+    width: 90%;
+    padding: 60px 40px;
+    height: auto;
+  }
+
+  .order {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  /* --- Booking Section --- */
+  .nine .Books {
+    width: 80%;
+    padding: 40px 30px;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  /* --- Contact Section --- */
+  .left2, .right2 {
+    height: 70vh;
+  }
+
+  /* --- Footer --- */
+  .foot {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 30px;
+    gap: 15px;
+  }
+
+}
+
+.first h1{
+    
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
 
 
 
