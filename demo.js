@@ -87,3 +87,7 @@ gsap.from(".right2",{
     x:500,
     scrollTrigger:".right2"
 })
+
+
+
+
